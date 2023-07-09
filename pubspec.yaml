@@ -1,0 +1,45 @@
+name: app_02
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+    sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+    flutter:
+        sdk: flutter
+    http: ^1.1.0
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_lints: ^2.0.0
+    flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+    android: "launcher_icon"
+    ios: true
+    image_path: "assets/icon-belgique.png"
+
+flutter:
+    uses-material-design: true
+
+    assets:
+        - assets/
+
+    fonts:
+        - family: Pacifico
+          fonts:
+              - asset: assets/Pacifico-Regular.ttf
+
+        - family: Poppins
+          fonts:
+              - asset: assets/Poppins-Regular.ttf
+              - asset: assets/Poppins-Bold.ttf
+                weight: 700
+              - asset: assets/Poppins-Italic.ttf
+                style: italic
+              - asset: assets/Poppins-BoldItalic.ttf
+                weight: 700
+                style: italic
